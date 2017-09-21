@@ -9,14 +9,14 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MyInteger_Test {
-	MyInteger x = new MyInteger(6);
-	MyInteger y = new MyInteger(11);
+	MyInteger w = new MyInteger(80);
+	MyInteger y = new MyInteger(13);
 	MyInteger z = new MyInteger(23);
-	MyInteger a = new MyInteger(6);
-	MyInteger b = new MyInteger(9);
+	MyInteger g = new MyInteger(6);
+	MyInteger b = new MyInteger(11);
 	MyInteger c = new MyInteger(83);
-	MyInteger j = new MyInteger(20);
-	MyInteger k = new MyInteger(20);
+	MyInteger j = new MyInteger(22);
+	MyInteger k = new MyInteger(22);
 	
 
 	@BeforeClass
@@ -37,16 +37,16 @@ public class MyInteger_Test {
 
 	@Test
 	public void test() {
-		assertTrue(x.isEven());
+		assertTrue(w.isEven());
 		assertTrue(y.isOdd());
 		assertTrue(z.isPrime());
 		assertTrue(MyInteger.isEven(8));
 		assertTrue(MyInteger.isOdd(9));
 		assertTrue(MyInteger.isPrime(19));
-		assertTrue(MyInteger.isEven(a));
+		assertTrue(MyInteger.isEven(g));
 		assertTrue(MyInteger.isOdd(b));
 		assertTrue(MyInteger.isPrime(c));
-		assertTrue(j.equals(20));
+		assertTrue(j.equals(22));
 		assertTrue(j.equals(k)); 
 		 
 	}
